@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:study/view/home.dart';
+import 'package:study/view/state.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-          body: HomePage(),
+          body: Demo(),
         ));
   }
 }
